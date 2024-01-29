@@ -59,8 +59,8 @@ defmodule BambooClicksend.Mixfile do
 
   defp deps do
     [
-      {:bamboo, "~> 1.0"},
-      {:click_send, "~> 0.1"},
+      {:bamboo, "~> 2.3"},
+      {:click_send, git: "https://github.com/JBulloch/click_send.git", tag: "6.0" },
       #{:click_send, path: "../click_send"},
 
       {:ex_doc, ">= 0.0.0", only: :dev},
